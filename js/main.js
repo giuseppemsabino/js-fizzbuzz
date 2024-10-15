@@ -15,7 +15,7 @@
 // *Buon lavoro e buon divertimento! 
 
 console.log('js collegato')
-//prima creo 3 variabili string con il testo (fizz, buzz i fizzbuzz)
+//prima creo 2 variabili string con il testo (fizz e buzz)
 const fizz = 'Fizz';
 const buzz = 'Buzz';
 
