@@ -14,15 +14,30 @@
 // *2. proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
 // *Buon lavoro e buon divertimento! 
 
-console.log('js collegato')
-//prima creo 2 variabili string con il testo (fizz e buzz)
+
+//!prima creo 2 variabili string con il testo (fizz e buzz)
 const fizz = 'Fizz';
 const buzz = 'Buzz';
 
-//creo un ciclo for che mi permetta di controlare tutti i numeri di 1 a 100 
+//!creo un ciclo for che mi permetta di controlare tutti i numeri di 1 a 100 
 
 for (let i = 0; i < 101; i++){
-//poi creero un if per sapere se se il valore che cè dentro del i del ciclo in quel comento e divisibile tra il numero voluto 
-//dopo aver confermato se il nuemro e divisibile per il numero dato sia 3, 5 o tutti due stampero il testo adeguo 
-    
+//!poi creero un if per sapere se se il valore che cè dentro del i del ciclo in quel comento e divisibile tra il numero voluto 
+
+//!dopo aver confermato se il nuemro e divisibile per il numero dato sia 3, 5 o tutti due stampero il testo adeguo 
+
+if (i % 3 === 0 && i % 5 === 0){
+    console.log (i + ' ' + fizz + buzz);
+}
+else if (i % 5 === 0){
+    console.log (i + ' ' +buzz);
+}
+else if (i % 3 === 0){
+    console.log (i + ' ' + fizz);
+}
+else{
+//! per ultimo se il numero non e divisibile per nessuno dei valori precedenti no si stampera il testo solo il numero 
+    console.log (i);
+};
+
 }
